@@ -11,6 +11,20 @@ body{
 
 .faqs {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Change flex-direction to row */
     gap: 1rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: row; /* Change flex-direction to column */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rectangle {
+    width: 400px;
+    height: 722px;
+    background-color: #600b954d;
 }

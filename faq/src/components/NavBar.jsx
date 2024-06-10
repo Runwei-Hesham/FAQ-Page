@@ -3,7 +3,7 @@ import "../css/styles.css";
 function Navbar() {
   return (
     <nav className="nav">
-      <div className="site-title">TrustFund Registry</div>
+      <div className="site-title">TrustFundRegistry</div>
       <ul>
         <li>ABOUT US</li>
         <li>GIFTING</li>
