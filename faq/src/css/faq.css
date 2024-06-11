@@ -1,30 +1,155 @@
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 .items {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .faqs {
-    display: flex;
-    flex-direction: row; /* Change flex-direction to row */
-    gap: 1rem;
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row */
+  gap: 1rem;
 }
 
 .center {
-    display: flex;
-    flex-direction: row; /* Change flex-direction to column */
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row; /* Change flex-direction to column */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
+.center-column {
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.center-column p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.center-rectangles{
+    display: flex;
+  flex-direction: row; /* Change flex-direction to column */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 .rectangle {
-    width: 400px;
-    height: 722px;
-    background-color: #600b954d;
+  width: 400px;
+  height: auto;
+  background-color: #600b954d;
+  text-align: center;
+}
+
+.white-rectangle {
+  width: 340px;
+  height: auto;
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.white-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.purple-button {
+  background-color: #600b95;
+  color: #ffffff;
+  border: none;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.white-rectangle p {
+  font-family: "Poppins", sans-serif; /* Set the font to Poppins */
+  font-size: 14px; /* Set the font size to 14px */
+}
+
+.margin1 {
+  margin: 3rem;
+}
+
+.footer {
+  width: auto;
+  height: 800px;
+  background-color: #c4c4c4;
+  margin: 0;
+  padding: 3rem;
+  /* text-align: center; */
+}
+
+.footer ul {
+  padding: 6rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap; /* Prevent items from wrapping onto new lines */
+  gap: 3rem;
+}
+
+.divider {
+  width: 100%;
+  height: 2px; /* Adjust the thickness of the divider */
+  background: #000; /* Change the color as needed */
+  padding: 0;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row; /* Ensure the flex direction is row */
+  gap: 3rem; /* Adjust the gap between list items */
+  padding: 0;
+  margin: 0;
+  height: 200px;
+  width: 100%;
+}
+
+.image-container {
+  margin: 10px;
+  width: 100%; /* Full width of the container */
+  max-width: 150px; /* Maximum width of the container */
+  overflow: hidden; /* Hide overflow if the image is larger */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.company-images {
+  margin: 10px;
+  width: 100%; /* Full width of the container */
+  max-width: 500px; /* Maximum width of the container */
+  overflow: hidden; /* Hide overflow if the image is larger */
+  display: flex; /* Use flexbox for alignment */
+  gap: 10px; /* Space between images */
+}
+
+.company-images img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
 }
