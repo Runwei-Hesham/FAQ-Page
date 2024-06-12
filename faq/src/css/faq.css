@@ -15,6 +15,9 @@ body {
   gap: 1rem;
 }
 
+.center-padding {
+  padding: 2rem;
+}
 .center {
   display: flex;
   flex-direction: row; /* Change flex-direction to column */
@@ -36,8 +39,8 @@ body {
   font-size: 14px;
 }
 
-.center-rectangles{
-    display: flex;
+.center-rectangles {
+  display: flex;
   flex-direction: row; /* Change flex-direction to column */
   justify-content: center;
   align-items: center;
@@ -101,7 +104,7 @@ body {
 }
 
 .footer ul {
-  padding: 6rem;
+  padding: 4rem;
   margin: 0;
   list-style: none;
   display: flex;
@@ -140,7 +143,7 @@ body {
 }
 
 .company-images {
-  margin: 10px;
+  margin: 0;
   width: 100%; /* Full width of the container */
   max-width: 500px; /* Maximum width of the container */
   overflow: hidden; /* Hide overflow if the image is larger */
@@ -151,5 +154,19 @@ body {
 .company-images img {
   width: 30%;
   height: 30%;
-  object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  object-fit: contain; /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.background-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* Ensures the image covers the container while maintaining its aspect ratio */
 }
