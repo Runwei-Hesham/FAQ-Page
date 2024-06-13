@@ -6,32 +6,37 @@ import blackrock from "../Gallery/companies/BlackRock.png";
 import jpmorgan from "../Gallery/companies/Jpmorgan.png";
 import background from "../Gallery/backgroundimages/background-ai-brush-removebg-xc4tv3hi.png";
 import chatlogo from "../Gallery/chatlogo/image.png";
+import sidecolor from "../Gallery/backgroundimages/image copy 3.png";
 function Faq() {
   return (
     <div className=".center-column">
       <div className="center-padding">
         <div className="faq-text">
-          <h1>Have questions?</h1>
-          <h1>We've got you covered.</h1>
+          <h1 >Have questions?</h1>
+          <h1 style={{ fontStyle: "italic" }}>We've got you covered.</h1>
         </div>
         <div className="faqs">
-          <ul>
+          <div className="topic">
             <h2>Topics</h2>
-            <p>Setting Up A Child’s Trust Fund</p>
-            <p>Sending Gifts to Trust Funds</p>
-            <p>Managing Personal Account</p>
-            <p>Account Security </p>
-            <p>Sharing with Others</p>
-            <p>Tax Information</p>
-          </ul>
-          <ul>
-            <p>What Exactly Is A 529 Savings Plan?</p>
-            <p>What Are The Benefits Associated With A 529 Account?</p>
-            <p>What Can My Savings Be Spent On?</p>
-            <p>What Is The Difference Between 529 And UTMA?</p>
-            <p>How Much Can I Contribute?</p>
-            <p>How Do I Transfer A 529 Account To Trust Fund Registry? </p>
-          </ul>
+            <ul>
+              <p>Setting Up A Child’s Trust Fund</p>
+              <p>Sending Gifts to Trust Funds</p>
+              <p>Managing Personal Account</p>
+              <p>Account Security </p>
+              <p>Sharing with Others</p>
+              <p>Tax Information</p>
+            </ul>
+          </div>
+          <div className="questions">
+            <ul>
+              <p>What Exactly Is A 529 Savings Plan?</p>
+              <p>What Are The Benefits Associated With A 529 Account?</p>
+              <p>What Can My Savings Be Spent On?</p>
+              <p>What Is The Difference Between 529 And UTMA?</p>
+              <p>How Much Can I Contribute?</p>
+              <p>How Do I Transfer A 529 Account To Trust Fund Registry? </p>
+            </ul>
+          </div>
         </div>
         <div className="center">
           <h1>Check the fine print.</h1>
@@ -136,7 +141,7 @@ function Faq() {
         </div>
 
         <div className="center margin1">
-          <h1 style={{ margin: 0,fontSize: "50px" }}>
+          <h1 style={{ margin: 0, fontSize: "50px" }}>
             20,000+ families and children <br /> are investing with us.
           </h1>
         </div>
@@ -176,7 +181,9 @@ function Faq() {
             <p>Help Center</p>
           </ul>
           <ul>
-            <h4>TrustFund Registry™</h4>
+            <h4>
+              TrustFund <i>Registry™</i>
+            </h4>
           </ul>
           <ul>
             <p>Education</p>
@@ -185,7 +192,7 @@ function Faq() {
           </ul>
         </div>
         <div className="divider"></div>
-        <div className="center-column">
+        <div className="center-column-footer">
           <div className="image-container">
             <img src={logo} alt="Social media links"></img>
           </div>

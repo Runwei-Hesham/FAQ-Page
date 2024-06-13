@@ -5,21 +5,18 @@ function Navbar() {
   return (
     <nav className="nav">
       <div className="site-title">
-        <img src={trustfundregistrylogo}></img>TrustFundRegistry™
+        <img src={trustfundregistrylogo}></img>TrustFund  <i>Registry™</i>
       </div>
       <ul>
-        <li>ABOUT US</li>
-        <li>GIFTING</li>
-        <li>LEARN</li>
-        <li>HELP</li>
+        <button>ABOUT US</button>
+        <button>GIFTING</button>
+        <button>LEARN</button>
+        <button>HELP</button>
       </ul>
-
-      <ul>
-        <li>LOGIN</li>
-        <li>
-          <button className="btn-purple">CREATE AN ACCOUNT</button>
-        </li>
-      </ul>
+      <div className="auth-buttons">
+        <button>LOGIN</button>
+        <button className="btn-purple" style={{color: "white"}}>CREATE AN ACCOUNT</button>
+      </div>
     </nav>
   );
 }
