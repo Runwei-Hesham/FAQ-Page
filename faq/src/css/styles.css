@@ -47,5 +47,178 @@ body {
 .btn-purple {
     background-color: purple;
     color: white;
-   
+    border-radius: 10px;
+    border-color: purple;
 }
+.page a {
+    background-color: #2CDAE5
+    100%
+    #2CDAE5
+    0%;
+    color: white;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  .p1{
+    font-family: poppins;
+  }
+  .p2{
+    font-family: poppins;
+  }
+  .pages-container {
+    padding: 20px;
+  }
+  
+  .initial-text {
+    margin-bottom: 20px;
+  }
+  
+  .sections-container {
+    display: flex;
+  }
+  
+  .left-sectionn, .right-sectionn {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-sectionn {
+    padding-right: 10px;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  .left-logos{
+    display: flex;
+    gap: 2rem; 
+  }
+  
+  .right-sectionn {
+    padding-left: 10px;
+  }
+
+  .container {
+    display: flex;
+   
+        justify-content: center; /* Center the boxes horizontally */
+        gap: 20px; /* Adjust gap between boxes */
+      
+  }
+
+  .box {
+    background-color: #c580f0a9;
+    font-family: poppins;
+    flex: 1;
+    border: 1px solid #c580f0a9;
+    padding: 20px;
+    margin: 10px;
+    margin-left:50px;
+    margin-right:50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Ensure boxes stretch to equal height */
+    border-radius:10px;
+  }
+  
+  
+  .inner-box {
+    height:250px;
+    background-color: #FFFFFF;
+    font-family: poppins;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    margin: 5px;  
+    border-radius:10px;
+  }
+    .inner-box a {
+      text-decoration: none; /* Remove underlines */
+      color: inherit; /* Use the default text color */
+    }
+  
+  .buttonContainer {
+    margin-top: auto; /* Align buttons to the bottom of the inner-box */
+    display: flex;
+    justify-content: space-between; /* Ensure buttons are evenly spaced */
+  }
+  
+  .buttonContainer button {
+    width: 80%; /* Make buttons take full width of their container */
+    box-sizing: border-box; /* Ensure padding is included in the button's total width */
+  }
+ 
+ 
+  .whitebutton {
+    background-color: white;
+    font-family: poppins ;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  .purplebutton {
+    background-color: #631B77;
+    border-radius: 8px;
+    border: 1px solid #631B77;
+    color: white;
+    font-family: poppins ;
+    margin-left: 10px;
+  }
+  
+  .footerr {
+    display: flex;
+  }
+  
+  
+  .left-section {
+    border-right:#F2F5F7;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin-top: 2405px; 
+    gap: 2rem;
+    position: relative;
+  }
+  .logo11 {
+    margin-left: 50px;
+    width: 165.17px;
+    height: 90px;
+    
+  }
+  .logo12 {
+    width: 230px;
+    height: 84.93px;
+  }
+  .logo13 {
+    width: 172px;
+    height: 60.99px;
+  }
+  .logo14 {
+    margin-left: 170px;
+    width:400px;
+    height:100px;
+  }
+  .logo15 {
+    width: 236px;
+    height: 119px;
+    margin-left: 455px;
+    margin-top: 20px;
+  }
+ 

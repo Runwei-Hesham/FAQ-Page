@@ -2,11 +2,95 @@ body {
   font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
+}
+.p1 {
+  font-family: poppins;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.p2 {
+  font-family: poppins;
+}
+
+.pages-container {
+  padding: 20px;
+}
+
+.initial-text {
+  margin-bottom: 20px;
+}
+
+.sections-container {
+  display: flex;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.left-section {
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.left-logos {
+  display: flex;
+  gap: 2rem; 
+}
+
+.right-section {
+  padding-left: 10px;
+}
+
+.container {
+  display: flex;
 }
 
 .items {
   padding: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #005377;
+}
+.b{
+  background-color: #ffffff;
+  border-color: #43a6d0;
+  border-radius: 5px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
 }
 
 .faqs {
@@ -35,6 +119,7 @@ body {
 }
 
 .center-column p {
+ 
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
@@ -51,6 +136,7 @@ body {
   height: auto;
   background-color: #600b954d;
   text-align: center;
+  border-radius: 50px;
 }
 
 .white-rectangle {
@@ -97,7 +183,8 @@ body {
 .footer {
   width: auto;
   height: 800px;
-  background-color: #c4c4c4;
+  background-color: #F2F5F7;
+  ;
   margin: 0;
   padding: 3rem;
   /* text-align: center; */
@@ -113,10 +200,10 @@ body {
 }
 
 .divider {
-  width: 100%;
-  height: 2px; /* Adjust the thickness of the divider */
-  background: #000; /* Change the color as needed */
-  padding: 0;
+  width: 80%; 
+  height: 2px;
+  background-color: #000000; 
+  margin: 5px auto; 
 }
 
 .footer-items {
@@ -125,8 +212,26 @@ body {
   gap: 3rem; /* Adjust the gap between list items */
   padding: 0;
   margin: 0;
-  height: 200px;
+  height: 140px;
   width: 100%;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 0;
+}
+  .footer-items a{
+    color:#000000;
+    
+    text-decoration: none;
+}
+.footerText {
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the text block horizontally */
+  text-align: justify; /* Justify the text */
+  font-family: poppins;
+}
+
+.footerText p {
+  margin-bottom: 10px; /* Add spacing between paragraphs */
 }
 
 .image-container {
@@ -141,6 +246,26 @@ body {
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
 }
+.pictureSocial {
+  background-color: #F2F5F7;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.socialIcons {
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+.picture2 {
+  margin: 0 10px; 
+}
+
+.picture3 {
+  margin-top: 15px; 
+}
+
 
 .company-images {
   margin: 0;
