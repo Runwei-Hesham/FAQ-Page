@@ -18,14 +18,28 @@ body {
 
 .site-title {
     font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
+.site-title img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+   
+}
 .nav ul{
     padding: 0;
     margin: 0;
     list-style:none;
     display: flex;
     gap: 1rem;
+}
+
+.nav li{
+    width: auto;
 }
 .nav a {
     color: inherit;
