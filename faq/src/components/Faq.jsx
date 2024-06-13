@@ -50,9 +50,9 @@ function Faq() {
         </div>
         </div>
           </div>
-          <p>© 2010 — 2023 Privacy — Terms</p>
+          <p>© 2010 - 2023 Privacy - Terms</p>
           <div className="footerText">
-          <p style={{fontFamily: 'Poppins, sans-serif'}}>
+          <p >
             TrustFundRegistry is the tradename of TrustFundRegistry LLC, an
             SEC-registered investment adviser. Our internet-based investment
             advisory services are designed to assist clients in saving for
@@ -62,7 +62,7 @@ function Faq() {
             offering for any service or product to any person in any
             jurisdiction where such solicitation or offer would be unlawful.
           </p>
-          <p style={{fontFamily: 'Poppins, sans-serif'}}>
+          <p >
             Investing in securities involves risks, and investing in 529 plans
             in particular involves certain tax considerations and related risks.
             Any investments you make in a 529 plan through TrustFundRegistry may

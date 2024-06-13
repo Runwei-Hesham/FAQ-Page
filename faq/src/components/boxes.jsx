@@ -9,11 +9,11 @@ import mq from "../Gallery/companies/mq.jpg";
 export default function Boxes() {
     return (
       <div>
-      <h1 style={{textAlign: 'center', fontFamily: 'Poppins, sans-serif'}}><p>Check the fine print.</p></h1>
+      <h1 style={{textAlign: 'center', fontFamily: 'Poppins'}}><p>Check the fine print.</p></h1>
       <div className="container">
         <div className="box">
         <div>
-        <h2 style={{textAlign: 'center', fontFamily: 'Poppins, sans-serif'}}>Privacy Policies</h2> 
+        <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Privacy Policies</h2> 
           <div className="inner-box">  
           <h2><span>TrustFund</span>
           <span className="italic">Registry</span> Privacy Policy</h2>
@@ -23,7 +23,7 @@ export default function Boxes() {
               services, features, or content. </p>
               <div className="buttonContainer">
               <button className="whitebutton"><a href="https://drive.google.com/file/d/1EPx9L-55_7STWhcYZveeDPvcP5m0RkRx/view?usp=drive_link"download>Download PDF</a></button>
-              <button className="purplebutton"><a href="https://drive.google.com/file/d/1EPx9L-55_7STWhcYZveeDPvcP5m0RkRx/view?usp=drive_link">Read Article ></a></button>
+              <button className="purplebutton"><a href="https://drive.google.com/file/d/1EPx9L-55_7STWhcYZveeDPvcP5m0RkRx/view?usp=drive_link">Read Article &rarr;</a></button>
             </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Boxes() {
               services, features, or content. </p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -></button>
+              <button className="purplebutton">Read Article &rarr;</button>
             </div>
           </div>
           <div className="inner-box">
@@ -48,13 +48,13 @@ export default function Boxes() {
               services, features, or content. </p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -></button>
+              <button className="purplebutton">Read Article &rarr;</button>
             </div>
           </div>
         </div>
         <div className="box">
         <div>
-        <h2 style={{textAlign: 'center', fontFamily: 'Poppins, sans-serif'}}>Regulatory Compliance</h2>
+        <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Regulatory Compliance</h2>
           <div className="inner-box">
             <h2><span>TrustFund</span>
             <span className="italic">Registry</span> GLBA Notice 2</h2>
@@ -66,7 +66,7 @@ export default function Boxes() {
             <div className="buttonContainer">
             
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -> </button>
+              <button className="purplebutton">Read Article &rarr;</button>
               
             </div>
             </div>
@@ -80,7 +80,7 @@ export default function Boxes() {
             <div className="buttonContainer">
            
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -> </button>
+              <button className="purplebutton">Read Article &rarr; </button>
               </div>
            
           </div>
@@ -93,14 +93,14 @@ export default function Boxes() {
             <div className="buttonContainer">
             
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -> </button>
+              <button className="purplebutton">Read Article &rarr;</button>
               </div>
           
           </div>
         </div>
         <div className="box">
           <div>
-            <h2 style={{textAlign: 'center', fontFamily: 'Poppins, sans-serif'}}>Terms and Conditions</h2>
+            <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Terms and Conditions</h2>
           <div className="inner-box">
             <h2><span>TrustFund</span>
             <span className="italic">Registry</span> Terms of Service</h2>
@@ -111,7 +111,7 @@ export default function Boxes() {
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -></button>
+              <button className="purplebutton">Read Article &rarr;</button>
             </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function Boxes() {
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -></button>
+              <button className="purplebutton">Read Article &rarr;</button>
             </div>
           </div>
           <div className="inner-box">
@@ -138,7 +138,7 @@ export default function Boxes() {
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
-              <button className="purplebutton">Read Article -></button>
+              <button className="purplebutton">Read Article &rarr;</button>
             </div>
           </div>
         </div>
