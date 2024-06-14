@@ -4,8 +4,8 @@ import tfr from '../Gallery/tfr.png';
 function Navbar() {
   return (
     <nav className="nav">
-      <div className="site-title"> <img src={tfr} alt="Logo" className="logo" />
-      TrustFundRegistry™</div>
+      <div className="site-title"> <a href ="/lin"><img src={tfr} alt="Logo" className="logo" /></a>
+      <a href = "/tfr">TrustFundRegistry™</a></div>
       <ul>
         <li>ABOUT US</li>
         <li>GIFTING</li>

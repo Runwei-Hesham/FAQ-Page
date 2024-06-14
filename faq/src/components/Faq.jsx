@@ -19,7 +19,7 @@ function Faq() {
           <a href = "/help">Help Center</a>  
           </ul>
           <ul>
-          <a href>
+          <a href = "/TFR">
         <span>TrustFund</span>
         <span>Registry<sup>™</sup></span>
         </a> 
@@ -53,7 +53,7 @@ function Faq() {
           <p>© 2010 - 2023 Privacy - Terms</p>
           <div className="footerText">
           <p >
-            TrustFundRegistry is the tradename of TrustFundRegistry LLC, an
+            TrustFundRegistry™ is the tradename of TrustFundRegistry™ LLC, an
             SEC-registered investment adviser. Our internet-based investment
             advisory services are designed to assist clients in saving for
             college and are not intended to provide comprehensive tax advice or
@@ -65,7 +65,7 @@ function Faq() {
           <p >
             Investing in securities involves risks, and investing in 529 plans
             in particular involves certain tax considerations and related risks.
-            Any investments you make in a 529 plan through TrustFundRegistry may
+            Any investments you make in a 529 plan through TrustFundRegistry™ may
             lose value. Historical returns, expected returns, and probability
             projections are provided for informational and illustrative
             purposes, and may not reflect actual future performance. Our savings

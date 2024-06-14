@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import './Pages.css'; // Import your CSS file here
-
 const Pages = () => {
   return (
     <div className="pages-container">
@@ -76,7 +74,7 @@ const RightSection = () => {
           <button className='b'>+</button>
         </div>
         <div className="item">
-          <div className="text"><p>How Do I Transfer A 529 Account To Trust Fund Registry?</p></div>
+          <div className="text"><p>How Do I Transfer A 529 Account To TrustFundRegistry™?</p></div>
           <div className="line"></div>
           <button className='b'>+</button>
         </div>

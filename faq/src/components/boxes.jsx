@@ -15,8 +15,8 @@ export default function Boxes() {
         <div>
         <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Privacy Policies</h2> 
           <div className="inner-box">  
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> Privacy Policy</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> Privacy Policy</h2>
             <p>This discloses our privacy practices for 
               personal information we collect when 
               you use or access our products, 
@@ -28,8 +28,8 @@ export default function Boxes() {
             </div>
           </div>
           <div className="inner-box">
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> Privacy Policy</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> Privacy Policy</h2>
             <p>This discloses our privacy practices for 
               personal information we collect when 
               you use or access our products, 
@@ -40,8 +40,8 @@ export default function Boxes() {
             </div>
           </div>
           <div className="inner-box">
-            <h2><span>TrustFund</span>
-            <span className="italic">Registry</span> Privacy Policy</h2>
+            <h2><span>TrustFundRegistry™</span>
+            <span className="italic"></span> Privacy Policy</h2>
             <p>This discloses our privacy practices for 
               personal information we collect when 
               you use or access our products, 
@@ -56,8 +56,8 @@ export default function Boxes() {
         <div>
         <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Regulatory Compliance</h2>
           <div className="inner-box">
-            <h2><span>TrustFund</span>
-            <span className="italic">Registry</span> GLBA Notice 2</h2>
+            <h2><span>TrustFundRegistry™</span>
+            <span className="italic"></span> GLBA Notice 2</h2>
             <p>This explains our information-sharing 
               practices and how we safeguard sensitive 
               data.
@@ -72,8 +72,8 @@ export default function Boxes() {
             </div>
           </div>
           <div className="inner-box">
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> GLBA Notice 2</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> GLBA Notice 2</h2>
             <p>This explains our information-sharing 
               practices and how we safeguard sensitive 
               data.</p>
@@ -85,8 +85,8 @@ export default function Boxes() {
            
           </div>
           <div className="inner-box">
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> GLBA Notice 2</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> GLBA Notice 2</h2>
             <p>This explains our information-sharing 
               practices and how we safeguard sensitive 
               data.</p>
@@ -102,12 +102,12 @@ export default function Boxes() {
           <div>
             <h2 style={{textAlign: 'center', fontFamily: 'Poppins'}}>Terms and Conditions</h2>
           <div className="inner-box">
-            <h2><span>TrustFund</span>
-            <span className="italic">Registry</span> Terms of Service</h2>
+            <h2><span>TrustFundRegistry™</span>
+            <span className="italic"></span> Terms of Service</h2>
             <p>These Account Terms of Service (“TOS”) 
               are a legally binding agreement between 
-              you, <span>TrustFund</span>
-              <span className="italic">Registry</span> and our financial 
+              you, <span>TrustFundRegistry™</span>
+              <span className="italic"></span> and our financial 
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
@@ -116,12 +116,12 @@ export default function Boxes() {
             </div>
           </div>
           <div className="inner-box">
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> Terms of Service</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> Terms of Service</h2>
             <p>These Account Terms of Service (“TOS”) 
               are a legally binding agreement between 
-              you, <span>TrustFund</span>
-              <span className="italic">Registry</span> and our financial 
+              you, <span>TTrustFundRegistry™</span>
+              <span className="italic"></span> and our financial 
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
@@ -129,12 +129,12 @@ export default function Boxes() {
             </div>
           </div>
           <div className="inner-box">
-          <h2><span>TrustFund</span>
-          <span className="italic">Registry</span> Terms of Service</h2>
+          <h2><span>TrustFundRegistry™</span>
+          <span className="italic"></span> Terms of Service</h2>
             <p>These Account Terms of Service (“TOS”) 
               are a legally binding agreement between 
-              you, <span>TrustFund</span>
-              <span className="italic">Registry</span> and our financial 
+              you, <span>TrustFundRegistry™</span>
+              <span className="italic"></span> and our financial 
               institution partners.</p>
             <div className="buttonContainer">
               <button className="whitebutton">Download PDF</button>
