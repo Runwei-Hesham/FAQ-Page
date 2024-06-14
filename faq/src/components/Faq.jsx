@@ -7,7 +7,26 @@ import jpmorgan from "../Gallery/companies/Jpmorgan.png";
 import background from "../Gallery/backgroundimages/background-ai-brush-removebg-xc4tv3hi.png";
 import chatlogo from "../Gallery/chatlogo/image.png";
 import sidecolor from "../Gallery/backgroundimages/image copy 3.png";
+import PdfButton from "./PdfButton";
 function Faq() {
+
+  const handleDownload = () => {
+    // using Java Script method to get PDF file
+    fetch("TFR Documents/TFR Privacy Policy.pdf").then((response) => {
+      response.blob().then((blob) => {
+       
+          // Creating new object of PDF file
+          const fileURL =
+              window.URL.createObjectURL(blob);
+               
+          // Setting various property values
+          let alink = document.createElement("a");
+          alink.href = fileURL;
+          alink.download = "TFR Privacy Policy.pdf";
+          alink.click();
+      });
+    });
+  };
   return (
     <div className=".center-column">
       <div className="center-padding">
@@ -65,8 +84,7 @@ function Faq() {
         <div className="center">
           <h1>Check the fine print.</h1>
         </div>
-        <div className="center-rectangles">
-          <div className="rectangle">
+        <div className="center-rectangles">          <div className="rectangle">
             <h1>Privacy Policies</h1>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Privacy Policy</h4>
@@ -76,8 +94,8 @@ function Faq() {
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button" value="download">Download PDF</button>
-                <button className="purple-button">Read Article &rarr;</button>
+                <button className="white-button" onClick={handleDownload}>Download PDF</button>
+                <PdfButton label={"Read Article"} url="/TFR Documents/TFR Privacy Policy.pdf" ></PdfButton>
               </div>
             </div>
             <div className="white-rectangle">
@@ -88,8 +106,8 @@ function Faq() {
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button">Download PDF</button>
-                <button className="purple-button">Read Article &rarr;</button>
+                <button className="white-button" onClick={handleDownload}>Download PDF</button>
+                <PdfButton label={"Read Article"} url="/TFR Documents/TFR Privacy Policy.pdf" ></PdfButton>
               </div>
             </div>
             <div className="white-rectangle">
@@ -100,7 +118,7 @@ function Faq() {
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button">Download PDF</button>
+                <button className="white-button" onClick={handleDownload}>Download PDF</button>
                 <button className="purple-button">Read Article &rarr;</button>
               </div>
             </div>
@@ -263,19 +281,7 @@ function Faq() {
     </div>
   );
 
-  const downloadTxtFile = () => {
-    // text content
-    const texts = ["line 1", "line 2", "line 3"]
-// file object
-    const file = new Blob(texts, {type: 'text/plain'});
-// anchor link
-    const element = document.createElement("a");
-    element.href = URL.createObjectURL(file);
-    element.download = "100ideas-" + Date.now() + ".txt";
-// simulate link click
-    document.body.appendChild(element); // Required for this to work in FireFox
-    element.click();
-}
+  
 }
 
 export default Faq;
