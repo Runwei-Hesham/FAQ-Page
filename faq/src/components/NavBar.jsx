@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <div className="site-title">
-        <img src={trustfundregistrylogo}></img>TrustFund  <i>Registry™</i>
+        <img src={trustfundregistrylogo}></img>TrustFundRegistry™
       </div>
       <ul>
         <button>ABOUT US</button>

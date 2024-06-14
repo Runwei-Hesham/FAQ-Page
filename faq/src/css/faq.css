@@ -90,38 +90,57 @@ body {
   height: auto;
   background-color: #600b954d;
   text-align: center;
+  border-radius: 10px;
 }
 
 .white-rectangle {
   width: 340px;
   height: auto;
   background-color: #ffffff;
-  padding: 1rem;
+  padding: 1px;
   margin: 2rem;
+  border-radius: 5px;
+}
+
+.white-rectangle button{
+  
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .white-button {
   background-color: #ffffff;
   color: #000000;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   padding: 10px 20px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   cursor: pointer;
   margin: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 .purple-button {
   background-color: #600b95;
   color: #ffffff;
   border: none;
-  padding: 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   cursor: pointer;
-  margin: 1rem;
+  margin: 0rem;
+  border-radius: 8px;
+  font-weight: bold;
+  height: fit-content;
 }
 
 .white-rectangle p {
@@ -136,7 +155,7 @@ body {
 .footer {
   width: auto;
   height: 800px;
-  background-color: #c4c4c4;
+  background-color: #F2F5F7;
   margin: 0;
   padding: 3rem;
   /* text-align: center; */
@@ -245,4 +264,27 @@ body {
 .questions p{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 43rem;
+  font-weight: bold;
+}
+.questions button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #003f5c; /* Use the desired color */
+  border-radius: 4px; /* Adjust as needed */
+  background-color: transparent;
+  color: #003f5c; /* Use the desired color */
+}
+
+.question-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #003f5c; /* Use the desired color */
+  margin-right: 10px; /* Adjust spacing as needed */
+  border: 2px;
 }

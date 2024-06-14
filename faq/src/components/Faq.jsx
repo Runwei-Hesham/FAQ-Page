@@ -12,13 +12,13 @@ function Faq() {
     <div className=".center-column">
       <div className="center-padding">
         <div className="faq-text">
-          <h1 >Have questions?</h1>
+          <h1>Have questions?</h1>
           <h1 style={{ fontStyle: "italic" }}>We've got you covered.</h1>
         </div>
         <div className="faqs">
           <div className="topic">
-            <h2>Topics</h2>
-            <ul>
+            <h2 style={{ margin: 0 }}>Topics</h2>
+            <ul style={{ margin: 0 }}>
               <p>Setting Up A Child’s Trust Fund</p>
               <p>Sending Gifts to Trust Funds</p>
               <p>Managing Personal Account</p>
@@ -28,13 +28,37 @@ function Faq() {
             </ul>
           </div>
           <div className="questions">
-            <ul>
-              <p>What Exactly Is A 529 Savings Plan?</p>
-              <p>What Are The Benefits Associated With A 529 Account?</p>
-              <p>What Can My Savings Be Spent On?</p>
-              <p>What Is The Difference Between 529 And UTMA?</p>
-              <p>How Much Can I Contribute?</p>
-              <p>How Do I Transfer A 529 Account To Trust Fund Registry? </p>
+            <ul style={{ marginTop: 0 }}>
+              <p>
+                What Exactly Is A 529 Savings Plan?
+                <div className="question-line"> </div>
+                <button>+</button>
+              </p>
+
+              <p>
+                What Are The Benefits Associated With A 529 Account?
+                <div className="question-line"> </div>
+                <button>+</button>
+              </p>
+              <p>
+                What Can My Savings Be Spent On?
+                <div className="question-line"> </div>
+                <button>+</button>
+              </p>
+              <p>
+                What Is The Difference Between 529 And UTMA?
+                <div className="question-line"> </div>
+                <button>+</button>
+              </p>
+              <p>
+                How Much Can I Contribute?<div className="question-line"> </div>
+                <button>+</button>
+              </p>
+              <p>
+                How Do I Transfer A 529 Account To Trust Fund Registry?{" "}
+                <div className="question-line"> </div>
+                <button>+</button>
+              </p>
             </ul>
           </div>
         </div>
@@ -43,16 +67,18 @@ function Faq() {
         </div>
         <div className="center-rectangles">
           <div className="rectangle">
-            <h2>Privacy Policies</h2>
+            <h1>Privacy Policies</h1>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Privacy Policy</h4>
               <p>
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
-              </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              </p>{" "}
+              <div className="button-container">
+                <button className="white-button" value="download">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Privacy Policy</h4>
@@ -60,9 +86,11 @@ function Faq() {
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
-              </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              </p>{" "}
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Privacy Policy</h4>
@@ -70,21 +98,25 @@ function Faq() {
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
-              </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              </p>{" "}
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
           </div>
           <div className="rectangle">
-            <h2>Regulatory Compliance</h2>
+            <h1>Regulatory Compliance</h1>
             <div className="white-rectangle">
               <h4>Trust Fund Registry GLBA Notice 2</h4>
               <p>
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry GLBA Notice 2</h4>
@@ -92,8 +124,10 @@ function Faq() {
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry GLBA Notice 2</h4>
@@ -101,12 +135,14 @@ function Faq() {
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
           </div>
           <div className="rectangle">
-            <h2>Terms and Conditions</h2>
+            <h1>Terms and Conditions</h1>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Terms of Service</h4>
               <p>
@@ -114,8 +150,10 @@ function Faq() {
                 agreement between you, Trust Fund Registry and our financial
                 institution partners.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Terms of Service</h4>
@@ -124,8 +162,10 @@ function Faq() {
                 agreement between you, Trust Fund Registry and our financial
                 institution partners.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
             <div className="white-rectangle">
               <h4>Trust Fund Registry Terms of Service</h4>
@@ -134,14 +174,16 @@ function Faq() {
                 agreement between you, Trust Fund Registry and our financial
                 institution partners.
               </p>
-              <button className="white-button">Download PDF</button>
-              <button className="purple-button">Read Article</button>
+              <div className="button-container">
+                <button className="white-button">Download PDF</button>
+                <button className="purple-button">Read Article &rarr;</button>
+              </div>
             </div>
           </div>
         </div>
 
         <div className="center margin1">
-          <h1 style={{ margin: 0, fontSize: "50px" }}>
+          <h1 style={{ margin: 0, fontSize: "50px", textalign: "center" }}>
             20,000+ families and children <br /> are investing with us.
           </h1>
         </div>
@@ -181,9 +223,7 @@ function Faq() {
             <p>Help Center</p>
           </ul>
           <ul>
-            <h4>
-              TrustFund <i>Registry™</i>
-            </h4>
+            <h4>TrustFund Registry™</h4>
           </ul>
           <ul>
             <p>Education</p>
@@ -196,7 +236,7 @@ function Faq() {
           <div className="image-container">
             <img src={logo} alt="Social media links"></img>
           </div>
-          <p>© 2010 — 2023 Privacy — Terms</p>
+          <p>© 2010 — 2023 &nbsp;&nbsp;&nbsp; Privacy — Terms</p>
           <p>
             TrustFundRegistry is the tradename of TrustFundRegistry LLC, an
             SEC-registered investment adviser. Our internet-based investment
@@ -222,6 +262,20 @@ function Faq() {
       </div>
     </div>
   );
+
+  const downloadTxtFile = () => {
+    // text content
+    const texts = ["line 1", "line 2", "line 3"]
+// file object
+    const file = new Blob(texts, {type: 'text/plain'});
+// anchor link
+    const element = document.createElement("a");
+    element.href = URL.createObjectURL(file);
+    element.download = "100ideas-" + Date.now() + ".txt";
+// simulate link click
+    document.body.appendChild(element); // Required for this to work in FireFox
+    element.click();
+}
 }
 
 export default Faq;
