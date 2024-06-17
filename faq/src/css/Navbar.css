@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f2f5f7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width:100%;
+  top:0;
+  z-index: 4;
+  margin-bottom: 100px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  transform:scale(1.5)
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  position: relative;
+}
+
+.logo-text .tm {
+  font-size: 10px;
+  vertical-align: super;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  color: #631b77;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.nav-links span {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.nav-links span:hover {
+  text-decoration: underline;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.login-button {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.create-account-button {
+  background-color: #631b77;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.create-account-button:hover {
+  background-color: #4d155c;
+}
+
+.create-account-button:active {
+  transform: scale(0.98);
+}
+
+.menu-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+.menu-icon {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-button {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav-links,
+  .auth-buttons {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .nav-links.open,
+  .auth-buttons.open {
+    display: flex;
+  }
+
+  .nav-links span,
+  .login-button,
+  .create-account-button {
+    margin: 10px 0;
+  }
+
+  .auth-buttons {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 40px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+  }
+
+  .nav-links span {
+    font-size: 14px;
+  }
+
+  .login-button,
+  .create-account-button {
+    font-size: 14px;
+  }
+
+  .create-account-button {
+    padding: 8px 16px;
+  }
+}
+
+
+  

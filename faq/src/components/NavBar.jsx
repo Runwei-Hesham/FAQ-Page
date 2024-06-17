@@ -1,24 +1,37 @@
-import { Link } from "react-router-dom";
-import "../css/styles.css";
-import trustfundregistrylogo from "/Users/heshamsharafaldin/Desktop/FAQ-Page/faq/src/Gallery/TrustFundRegistryImages/Trustfundregistery-01.png";
-function Navbar() {
+import "../css/Navbar.css";
+import newLogo from "../Gallery/TrustFundRegistryImages/Trustfundregistery-01.png";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+const Navbar = () => {
+  
+
   return (
-    <nav className="nav">
-      <div className="site-title">
-        <img src={trustfundregistrylogo}></img>TrustFundRegistry™
+    <div className="navbar">
+      <div className="logo-container">
+        <img src={newLogo} alt="TrustFundRegistry" className="logo" />
+        <div className="logo-text">
+          TrustFundRegistry
+          <sup className="tm">TM</sup>
+        </div>
       </div>
-      <ul>
-        <button>ABOUT US</button>
-        <button>GIFTING</button>
-        <button>LEARN</button>
-        <button>HELP</button>
-      </ul>
-      <div className="auth-buttons">
-        <button>LOGIN</button>
-        <button style={{color: "white", background: "#631B77"}}>CREATE AN ACCOUNT</button>
+      <button className="menu-button">
+        <div className="menu-icon"></div>
+        <div className="menu-icon"></div>
+        <div className="menu-icon"></div>
+      </button>
+      <nav className="nav-links">
+        <span>About Us</span>
+        <span>Gifting</span>
+        <span>Learn</span>
+        <span>Help</span>
+      </nav>
+      <div className="">
+        <span className="login-button">Login</span>
+        <span className="create-account-button">Create an Account</span>
       </div>
-    </nav>
+    </div>
   );
-}
+};
 
 export default Navbar;
