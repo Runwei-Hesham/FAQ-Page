@@ -82,7 +82,7 @@ body {
   display: flex;
   flex-direction: row; /* Change flex-direction to column */
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
 }
 .rectangle {

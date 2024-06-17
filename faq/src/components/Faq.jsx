@@ -82,7 +82,7 @@ function Faq() {
           </div>
         </div>
         <div className="center">
-          <h1>Check the fine print.</h1>
+          <h1>Disclosures</h1>
         </div>
         <div className="center-rectangles">          <div className="rectangle">
             <h1>Privacy Policies</h1>

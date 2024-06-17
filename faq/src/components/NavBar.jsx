@@ -15,7 +15,7 @@ function Navbar() {
       </ul>
       <div className="auth-buttons">
         <button>LOGIN</button>
-        <button className="btn-purple" style={{color: "white"}}>CREATE AN ACCOUNT</button>
+        <button style={{color: "white", background: "#631B77"}}>CREATE AN ACCOUNT</button>
       </div>
     </nav>
   );
