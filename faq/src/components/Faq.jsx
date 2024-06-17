@@ -74,7 +74,7 @@ function Faq() {
                 <button>+</button>
               </p>
               <p>
-                How Do I Transfer A 529 Account To Trust Fund Registry?{" "}
+                How Do I Transfer A 529 Account To Trust Fund Registry <sup className="tm">TM</sup>?{" "}
                 <div className="question-line"> </div>
                 <button>+</button>
               </p>
@@ -84,41 +84,57 @@ function Faq() {
         <div className="center">
           <h1>Disclosures</h1>
         </div>
-        <div className="center-rectangles">          <div className="rectangle">
+        <div className="center-rectangles">
+          {" "}
+          <div className="rectangle">
             <h1>Privacy Policies</h1>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Privacy Policy</h4>
+              <h4>
+                Trust Fund Registry <sup className="tm">TM</sup> <sup className="tm">TM</sup> Privacy Policy
+              </h4>
               <p>
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button" onClick={handleDownload}>Download PDF</button>
-                <PdfButton label={"Read Article"} url="/TFR Documents/TFR Privacy Policy.pdf" ></PdfButton>
+                <button className="white-button" onClick={handleDownload}>
+                  Download PDF
+                </button>
+                <PdfButton
+                  label={"Read Article"}
+                  url="/TFR Documents/TFR Privacy Policy.pdf"
+                ></PdfButton>
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Privacy Policy</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> Privacy Policy</h4>
               <p>
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button" onClick={handleDownload}>Download PDF</button>
-                <PdfButton label={"Read Article"} url="/TFR Documents/TFR Privacy Policy.pdf" ></PdfButton>
+                <button className="white-button" onClick={handleDownload}>
+                  Download PDF
+                </button>
+                <PdfButton
+                  label={"Read Article"}
+                  url="/TFR Documents/TFR Privacy Policy.pdf"
+                ></PdfButton>
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Privacy Policy</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> Privacy Policy</h4>
               <p>
                 This discloses our privacy practices for personal information we
                 collect when you use or access our products, services, features,
                 or content.
               </p>{" "}
               <div className="button-container">
-                <button className="white-button" onClick={handleDownload}>Download PDF</button>
+                <button className="white-button" onClick={handleDownload}>
+                  Download PDF
+                </button>
                 <button className="purple-button">Read Article &rarr;</button>
               </div>
             </div>
@@ -126,7 +142,7 @@ function Faq() {
           <div className="rectangle">
             <h1>Regulatory Compliance</h1>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry GLBA Notice 2</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> GLBA Notice 2</h4>
               <p>
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
@@ -137,7 +153,7 @@ function Faq() {
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry GLBA Notice 2</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> GLBA Notice 2</h4>
               <p>
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
@@ -148,7 +164,7 @@ function Faq() {
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry GLBA Notice 2</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> GLBA Notice 2</h4>
               <p>
                 This explains our information-sharing practices and how we
                 safeguard sensitive data.
@@ -162,10 +178,10 @@ function Faq() {
           <div className="rectangle">
             <h1>Terms and Conditions</h1>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Terms of Service</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> Terms of Service</h4>
               <p>
                 These Account Terms of Service (“TOS”) are a legally binding
-                agreement between you, Trust Fund Registry and our financial
+                agreement between you, Trust Fund Registry <sup className="tm">TM</sup> and our financial
                 institution partners.
               </p>
               <div className="button-container">
@@ -174,10 +190,10 @@ function Faq() {
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Terms of Service</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> Terms of Service</h4>
               <p>
                 These Account Terms of Service (“TOS”) are a legally binding
-                agreement between you, Trust Fund Registry and our financial
+                agreement between you, Trust Fund Registry <sup className="tm">TM</sup> and our financial
                 institution partners.
               </p>
               <div className="button-container">
@@ -186,10 +202,10 @@ function Faq() {
               </div>
             </div>
             <div className="white-rectangle">
-              <h4>Trust Fund Registry Terms of Service</h4>
+              <h4>Trust Fund Registry <sup className="tm">TM</sup> Terms of Service</h4>
               <p>
                 These Account Terms of Service (“TOS”) are a legally binding
-                agreement between you, Trust Fund Registry and our financial
+                agreement between you, Trust Fund Registry <sup className="tm">TM</sup> and our financial
                 institution partners.
               </p>
               <div className="button-container">

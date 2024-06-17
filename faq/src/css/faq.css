@@ -289,3 +289,12 @@ body {
   margin-right: 10px; /* Adjust spacing as needed */
   border: 2px;
 }
+
+.tm {
+  font-size: 10px;
+    vertical-align: super;
+    position: static;
+    top: -10px;
+    right: -20px;
+    color: #631b77;
+}
