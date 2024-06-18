@@ -30,6 +30,7 @@ function Faq() {
   return (
     <div className=".center-column">
       <div className="center-padding">
+          <img src={sidecolor} className="item1"></img>
         <div className="faq-text">
           <h1>Have questions?</h1>
           <h1 style={{ fontStyle: "italic" }}>We've got you covered.</h1>
@@ -90,7 +91,7 @@ function Faq() {
             <h1>Privacy Policies</h1>
             <div className="white-rectangle">
               <h4>
-                Trust Fund Registry <sup className="tm">TM</sup> <sup className="tm">TM</sup> Privacy Policy
+                Trust Fund Registry <sup className="tm">TM</sup> Privacy Policy
               </h4>
               <p>
                 This discloses our privacy practices for personal information we
@@ -217,7 +218,7 @@ function Faq() {
         </div>
 
         <div className="center margin1">
-          <h1 style={{ margin: 0, fontSize: "50px", textalign: "center" }}>
+          <h1 style={{ margin: 0, fontSize: "50px", textAlign: "center" }}>
             20,000+ families and children <br /> are investing with us.
           </h1>
         </div>
